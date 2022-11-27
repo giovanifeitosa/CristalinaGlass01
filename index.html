@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristalina</title>
+    <style>
+        @font-face {
+            font-family: 'Naruto';
+            src: url(PTSansNarrow-Regular.ttf);
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        body {
+            margin: 0px;
+            font-family: 'Naruto';
+            background-image: linear-gradient(to bottom, #03045E, #023E8A, #0077B6);
+            color: white;
+            border: 0px;
+        }
+        
+        h1 {
+            font-size: 150%;
+            margin-top: 3%;
+            margin-bottom: 3%;
+            border: 10px solid;
+            border-color: black;
+            border-radius: 5%;
+        }
+        
+        h2 {
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            font-size: 200%;
+        }
+        
+        header {
+            justify-content: center;
+        }
+        
+        figcaption {
+            text-align: center;
+            margin: 5%;
+            font-size: 150%;
+        }
+        
+        figure {
+            height: 40%;
+            width: 40%;
+            margin: 0px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        figure>img {
+            width: 100%;
+            min-height: 100%;
+            border: 1%;
+            border-radius: 5%;
+        }
+        
+        #resultados img {
+            width: 100%;
+            height: 100%;
+            flex-wrap: wrap;
+        }
+        
+        #headermain {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            position: sticky;
+            top: 0;
+            background-color: black;
+            color: white;
+        }
+        
+        #nav {
+            border: 3px;
+            padding: 1%;
+            color: white;
+        }
+        
+        #sobrenos {
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+        }
+        
+        #footer {
+            background-color: black;
+            text-align: center;
+            flex-direction: column;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+        
+        #footer img {
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+        
+        #produtos {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #resultados {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 5%;
+            align-items: center;
+        }
+        
+        #imgs {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        }
+        
+        #videos {
+            margin: 5%;
+            max-width: 1280px;
+            max-height: 720px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 720px;
+        }
+        
+        iframe {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            margin: 1%;
+        }
+        
+        #social {
+            width: 15%;
+            height: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        
+        a {
+            padding: 5%;
+            text-decoration: none;
+            color: white;
+        }
+        
+        a:link {
+            color: white;
+        }
+        
+        a:hover {
+            color: #0077B6;
+        }
+        
+        a:active {
+            color: #0077B6;
+        }
+        
+        hr {
+            margin-bottom: 0;
+            border: 1px solid;
+            border-color: white;
+        }
+        
+        #copy {
+            margin-top: 0.5%;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <section id="headermain">
+        <header>
+            <h1>CristalinaGlass</h1>
+        </header>
+        <div id="nav">
+            <nav>
+                <a href="#top">Sobre</a>
+            </nav>
+        </div>
+        <div id="nav">
+            <nav>
+                <a href="#products">Produtos</a>
+            </nav>
+        </div>
+        <div id="nav">
+            <nav>
+                <a href="#results">Resultados</a>
+            </nav>
+        </div>
+        <div id="nav">
+            <nav>
+                <a href="#footer">Contatos</a>
+            </nav>
+        </div>
+    </section>
+    <a name="top"></a>
+    <h2>Sobre Nós</h2>
+    <section id="sobrenos">
+        <p>Nós somos a <strong>CristalinaGlass</strong>, empresa que busca soluções na área de vidros e pisos <br>e estamos no mercado há 4 anos e possuímos mais de 13 anos de experiência</p>
+        <p>Para encomendar o produto desejado fale conosco na área de contatos</p>
+    </section>
+    <a name="products"></a>
+    <h2>Produtos</h2>
+    <section id="produtos">
+        <div>
+            <figure>
+                <img src="Frente Cristal 5 PNG.png" width="100%" height="100%" alt="">
+                <figcaption>Pasta Limpa Vidros</figcaption>
+            </figure>
+        </div>
+    </section>
+    <a name="results"></a>
+    <h2>Resultados</h2>
+    <section id="resultados">
+        <div id="imgs">
+            <figure><img src="vidrosujo.jpg" alt="">
+                <figcaption>Antes</figcaption>
+            </figure>
+
+            <figure><img src="vidrolimpo.jpg" alt="">
+                <figcaption>Depois</figcaption>
+            </figure>
+
+            <figure><img src="piscinasuja.jpg" alt="">
+                <figcaption>Antes</figcaption>
+            </figure>
+
+            <figure><img src="piscinalimpa.jpg" alt="">
+                <figcaption>Depois</figcaption>
+            </figure>
+
+            <figure><img src="piasuja.jpg" alt="">
+                <figcaption>Antes</figcaption>
+            </figure>
+
+
+            <figure><img src="pialimpa.jpg" alt="">
+                <figcaption>Depois</figcaption>
+            </figure>
+
+            <figure><img src="granitosujo.jpg" alt="">
+                <figcaption>Antes</figcaption>
+            </figure>
+
+            <figure><img src="granitolimpo.jpg" alt="">
+                <figcaption>Depois</figcaption>
+            </figure>
+
+            <figure><img src="box2sujo.jpg" alt="">
+                <figcaption>Antes</figcaption>
+            </figure>
+
+            <figure><img src="box2limpo.jpg" alt="">
+                <figcaption>Depois</figcaption>
+            </figure>
+
+            <figure><img src="box1sujo.jpg" alt="">
+                <figcaption>Antes</figcaption>
+            </figure>
+
+            <figure><img src="box1limpo.jpg" alt="">
+                <figcaption>Depois</figcaption>
+            </figure>
+
+        </div>
+    </section>
+    <section id="videos">
+        <iframe src="https://www.youtube.com/embed/IXEVVrYKSN4" title="Esse produto vai inovar a limpeza de vidros - Cristal 5 (Pasta limpa vidros)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/TSGjZ3mApkM" title="Limpeza de vidro com a pasta CRISTAL 5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <hr>
+    <footer id="footer">
+        <h2>Contatos</h2>
+        <div id="social">
+            <a href="https://wa.me/qr/O2ZLX7VCO42JC1" target="_blank"><img src="whatsapp.png" alt=""></a>
+            <a href="https://www.instagram.com/cristalinaglass/" target="_blank"><img src="instagram.png" alt=""></a>
+            <a href="https://www.facebook.com/Cristalinaglass" target="_blank"><img src="facebook.png" alt=""></a>
+        </div>
+        <div>81999280319 (Whatsapp/Tim) | 81994183825 (Claro)</div>
+        <div id="copy">Copyright 2022&copy; Giovani Feitosa Leal Pereira</div>
+    </footer>
+</body>
+
+</html>
